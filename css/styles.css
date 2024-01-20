@@ -22,11 +22,18 @@ body {
     color: #818181;
     display: block;
   }
-  
+
   .sidenav a:hover {
     color: #f1f1f1;
   }
-  
+
+  .sidenav b {
+    padding: 6px 8px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
   .main {
     margin-left: 160px; /* Same as the width of the sidenav */
     font-size: 28px; /* Increased text to enable scrolling */
@@ -36,5 +43,7 @@ body {
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+    .sidenav b {font-size: 18px;}
 
 body,h1,h2 {font-family: "Montserrat", sans-serif;}
+  }
