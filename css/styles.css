@@ -2,3 +2,5 @@ body {
     background-color: black;
     color: white;
 }
+
+body,h1,h2 {font-family: "Montserrat", sans-serif;}
